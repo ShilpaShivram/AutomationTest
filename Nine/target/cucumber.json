@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-16T10:23:36.066Z",
+        "line": 4,
+        "name": "Pop-up is displayed for in landing page",
+        "description": "",
+        "id": "test-pop-up-in-the-landing-page;pop-up-is-displayed-for-in-landing-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9030911700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Landing page is loaded",
+            "match": {
+              "location": "StepDefinations.LpSd.landing_page_is_loaded()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 219412700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Subscription prompt is popped up",
+            "match": {
+              "location": "StepDefinations.LpSd.subscription_prompt_is_popped_up()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14668200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Scroll to end of the page",
+            "match": {
+              "location": "StepDefinations.LpSd.validated_the_pop_up()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10004352900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "wait for ten sec max",
+            "match": {
+              "location": "StepDefinations.LpSd.wait_for_ten_sec_max()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172536700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "pop up disappears",
+            "match": {
+              "location": "StepDefinations.LpSd.pop_up_disappears()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test pop up in the Landing Page",
+    "description": "",
+    "id": "test-pop-up-in-the-landing-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/LandingPage.feature",
+    "tags": []
+  }
+]
